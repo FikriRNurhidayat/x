@@ -15,3 +15,7 @@ func Date(value time.Time) bool {
 func Number(value uint32) bool {
 	return value != 0
 }
+
+func Bytes(value []byte) bool {
+  return len(value) > 0
+}
